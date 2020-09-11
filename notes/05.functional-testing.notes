@@ -1,0 +1,10 @@
+* // ---------- Functional Testing ---------- // *
+
+- Focus is on result, note code
+    - User interface
+- Check a specific feature
+    - Compares results against a specification
+    - User workflow
+- Typically automated
+    - Sometimes manual
+- Slower than unit and integration

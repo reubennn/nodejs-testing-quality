@@ -1,0 +1,25 @@
+* // ---------- System Testing ---------- // *
+
+- Similar to integration testing
+- Complete system
+    - Application and environment
+- Finds defects
+    - Between pieces
+    - System as a whole
+
+What happens in system testing?:
+    Anything that requires the entire system to be running.
+
+    - Performance
+        - Stress tests for reliability
+        - Load tests for scalability
+    - Security scans
+    - Usability and UX
+    - Compatibility
+
+* // ---------- Regression Testing ---------- // *
+
+# Regression
+    - Software bug
+    - Feature fails after a change
+    - Rerun unit and integration tests after making a change

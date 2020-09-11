@@ -1,0 +1,9 @@
+* // ---------- Integration Testing ---------- // *
+
+- Builds on unit tests
+- Combines and tests resulting combinations
+    - APIs, UIs, and results
+- One system or cross-systems
+- Uses full or partial environment
+    - Databases and services
+- More complex and harder to maintain than unit tests

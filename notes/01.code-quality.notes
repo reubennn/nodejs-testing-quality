@@ -1,0 +1,28 @@
+* // ---------- Code Quality ---------- // *
+
+What is quality?:
+    Quality consists of those product features that meet the needs of customers and thereby provide product satisfaction.
+    Quality consists of freedom from deficiencies.
+
+# Code Quality: Functionality
+    The code does what it is supposed to.
+
+# Code Quality: Deficiency Free
+    No failing or shortcomings
+
+Generally:
+    - Usefulness
+    - Maintainability
+
+Usefulness:
+    Flexible and reusable
+
+Maintainability:
+    1. Can you maintain the code?
+    2. Can someone else maintain it without help?
+    3. Can someone else read and understand design and intent?
+
+# Summary
+    - Meets functional requirements
+    - Maintainable
+    - Useful in multiple places

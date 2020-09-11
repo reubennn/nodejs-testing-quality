@@ -1,0 +1,14 @@
+* // ---------- Testing Summary ---------- // *
+
+# Unit Testing
+    Smallest parts of the system in isolation.
+
+# Integration Testing
+    Combining different parts.
+
+# Functional Testing
+    Compares the results of different workflows to a specification.
+
+# System Testing
+    - Fully exercises complete system using many different tools.
+    - Complete end to end.

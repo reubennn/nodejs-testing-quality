@@ -1,0 +1,40 @@
+* // ---------- Assertion Libraries ---------- // *
+
+# Assertions
+    - Validate the correctness of a unit
+    - Declares predicate is going to be TRUE
+
+Example:
+    `assert.equal('dog', 'cat');`
+        - Throws error if not
+
+# Assertion Library
+- Collection of assertions
+    - Many more than Node.js Assert
+    - Comparisons for many structures
+    - Promise support
+
+- Provides APIs to create predicates
+    - Interfaces like TDD and BDD
+
+Additional Assertion Examples:
+    `exists` => neither null nor undefined
+    `typeOf` => compare to Object.prototype.toString
+    `instanceOf` => instance of constructor
+    `propertyByPath` => nested properties
+    `finally` => object is a promise and will resolve to a value
+
+# Assertion Language Chaining
+Special kind of assertion.
+    - Checks nothing
+    - But pass value between assertions
+
+- Natural language descriptions
+- Multiple aliases
+    - be, an, of, a, and, been, have, has...
+
+# Assertion Library Examples
+- Assert => native, included in Node.js
+- Chai
+- should.js => gaining popularity
+- code (from Hapi.js)

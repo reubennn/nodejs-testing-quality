@@ -1,0 +1,19 @@
+* // ---------- Coding Conventions and Standards ---------- // *
+
+# Coding Conventions
+    Set of guidelines for a language.
+
+Consists of:
+    1. Programming style
+        - Code readability
+    2. Practices
+        - How to build and architect
+    3. Methods
+        - How to plan and implement
+
+# Coding Standards
+    - Collection of coding conventions.
+        - Rules for code quality
+    - Designed to produce quality code.
+    - Formally specified and adopted.
+    - Used to improve maintainability

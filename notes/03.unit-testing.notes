@@ -1,0 +1,46 @@
+* // ---------- Unit Testing ---------- // *
+
+What is a unit?:
+    Smallest testable part of an application
+
+Procedural:
+    - Entire module
+    - Individual function
+
+Object Orientated:
+    - Interface, like class
+    - Individual method
+
+# Unit Testing
+    Tests an isolated unit via API (Application Program Interface)
+
+    - Performed in memory
+        - No permanent changes
+    - Safe to run repeatedly
+    - Fast execution
+
+# Unit Testing Assertions
+    Validate correctness
+
+Statement that a predicate is going to be TRUE:
+    Predicate: returns Boolean (TRUE or FALSE)
+    - Throws error if FALSE
+
+Examples:
+    - ok => truth
+    - equal => shallow equality (==)
+    - deepEqual => shallow equality of all properties
+    - strictEqual => strict equality (===) and no implicitly conversion
+    - throws => thrown error
+    - and more... like notEqual
+
+# Unit Testing Dependencies
+    Simulate dependencies
+        - Isolate behaviour of a tested unit
+    Unit test your custom code
+        - Not third-party code
+        - Not core code
+
+Example:
+    Database query
+        - Returns an arbitrary result

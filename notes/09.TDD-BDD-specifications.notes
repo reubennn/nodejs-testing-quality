@@ -1,0 +1,56 @@
+* // ---------- Testing Specifications ---------- // *
+
+# Testing Framework Interfaces
+    - Domain-specific language (DSL)
+        - Standardises vocabulary
+        - Improves communication
+
+How to interact with the framework (examples):
+    - Test-driven development (TDD)
+    - Behaviour-driven development (BDD)
+
+# Difference?
+    - TDD and BDD are technically the same
+        - Difference is in vocabulary and approach
+
+TDD:
+    - Describes when something works or when it doesn't.
+    - Problem => too literal and fragile tests
+
+BDD:
+    Terminology about behaviour examples.
+        - Describe how and why with examples
+
+
+* // ---------- Test-driven Development (TDD) ---------- // *
+    - Software development process
+    - Requirements turned into test cases
+    - Software improved until tests pass
+        - Re-run test throughout development
+
+* // ---------- Behaviour-driven Development (BDD) ---------- // *
+Acceptance criteria as a scenario:
+    *Given* some initial context (the givens)
+    *When* an event occurs
+    *Then* ensure some outcomes
+
+# BDD Style Interface: Creation
+Describe/context:
+    Creates a group of specifications (tests)
+
+Specify/it:
+    Create a specification or test case
+        - AKA => spec
+
+# BDD Style Interface: Setup
+Before/after:
+    - Setup/teardown for a group
+
+beforeEach/afterEach:
+    - Setup/teardown for every specification
+
+* // ---------- Summary ---------- // *
+    - Framework provide interfaces to create test specifications
+    - Each interface uses a domain-specific language (DSL)
+        - TDD & BDD
+    - BDD vocabulary and approach describe how and why

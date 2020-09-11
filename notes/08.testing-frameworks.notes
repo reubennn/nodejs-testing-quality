@@ -1,0 +1,87 @@
+* // ---------- Test Frameworks ---------- // *
+
+# Test Automation
+    - Separate software from the application.
+    - Controls test execution.
+        - Ordering
+        - Filtering
+    - Avoids repetitive tasks.
+
+# Testing Framework
+    - Also known as testing automation framework.
+    - Execution environment for automated tests.
+
+What does a testing framework do?:
+    - Defines how assertions are defined.
+    - Controls and interacts with the tested application
+    - Executes tests
+    - Reports results
+        - Individual
+        - Aggregate
+
+# Test Framework Assumptions
+    - Responsibility delegation
+    - Focus on writing tests
+        - Not maintaining supporting software
+
+# Test Framework Concepts
+    Structural consistency.
+
+Tests:
+    - What a test does
+Results:
+    - Collection
+    - Reporting
+
+# Test Framework Tools
+    - Environment setup
+    - Application control
+    - Test data
+    - Execution control
+        - Subset of tests
+        - Thresholds
+
+Why use a testing framework?:
+    - Lower maintenance cost
+    - Update tests, not framework
+    - Reusability
+    - Delegate responsibility
+
+# Test Phases in a Framework
+    1. Setup:
+        - Prepare application
+            - Can be just including module
+        - Replace dependencies
+        - Prepare test data
+
+    2. Execution:
+        - Perform target behaviour
+        - Capture output
+            - API response
+        - Practically => call method/function
+
+    3. Validation:
+        - Ensure results are correct
+        - Assertions use results
+        - Framework collects results for reporting
+
+    4. Cleanup:
+        - Restore state
+        - Allow other tests to run
+        - Only if there's something that needs to be restored
+
+# Testing Frameworks
+- Mocha
+- Jasmine
+- Jest
+
+
+* // ---------- Summary ---------- // *
+
+Testing Frameworks:
+    - Facilitate test automation.
+        - Run tests
+        - Aggregates and reports results
+    - Provides structure and tooling
+    - Delegates maintenance
+        - Focuses on writing tests
