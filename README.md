@@ -4,7 +4,6 @@ This is a Node.js and Express website that accepts and lists restaurant reservat
 
 The backend contains intentional mistakes, like weak validation on email addresses. Inconsistencies in coding style are also intentional.
 
-
 ## LinkedIn Learning Course: Node.js: Testing and Code Quality
 
 A maintainable codebase should have clean and easy-to-manage code. In this course, Jon Peck shows how to gauge quality, implement testing, and measure code coverage in your Node.js apps. To help you better understand these key concepts, he walks through how to clean up a buggy restaurant booking app. First, Jon reviews testing and code quality fundamentals. Next, he shows how to find errors by linting your code base, and explores different testing frameworks and their components. Finally, he demonstrates how to write unit and functional tests to exercise the code base, then determine what code was executed with a code coverage report.
@@ -29,7 +28,6 @@ A maintainable codebase should have clean and easy-to-manage code. In this cours
 - Code coverage and why it matters
 - Coverage with continuous integration
 
-
 ## Getting Started
 
 ```bash
@@ -41,17 +39,20 @@ The server runs on port 3000.
 
 There are three routes:
 
-- http://localhost:3000/ - homepage
-- http://localhost:3000/reservations - submit a reservation booking request
-- http://localhost:3000/admin - view all booking requests; basic auth login/password `admin`
+- <http://localhost:3000/> - homepage
+- <http://localhost:3000/reservations> - submit a reservation booking request
+- <http://localhost:3000/admin> - view all booking requests; basic auth login/password `admin`
 
 The server persists using a SQLite3 database named `database.sqlite` in the site root.
 
 ## Development
 
+This project **does not** use EditorConfig to standardise text editor configuration.
+Visit <http://editorconfig.org> for more details.
+
 ### Debugging
 
-This project uses https://www.npmjs.com/package/debug for development logging. To start `nodemon` and enable logging:
+This project uses <https://www.npmjs.com/package/debug> for development logging. To start `nodemon` and enable logging:
 
 ```bash
 npm run debug
@@ -70,13 +71,13 @@ npm run debug
 
 ## Credits
 
-This is an adaptation of a WordPress site hosted at http://587672.youcanlearnit.net/
+This is an adaptation of a WordPress site hosted at <http://587672.youcanlearnit.net/>
 
 The conversion:
 
 - Archive original with wget
 - Strip out unrelated functionality
 - Reorganize JavaScript and Stylesheets into logical directories
-- Converted HTML into Jade / Pug templates using http://html2jade.org/
+- Converted HTML into Jade / Pug templates using <http://html2jade.org/>
 
 The front end should be mostly unchanged from the original.
