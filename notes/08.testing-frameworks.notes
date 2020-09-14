@@ -74,6 +74,8 @@ Why use a testing framework?:
 - Mocha
 - Jasmine
 - Jest
+- AVA
+- tape
 
 
 * // ---------- Summary ---------- // *
