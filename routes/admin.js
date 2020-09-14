@@ -1,6 +1,6 @@
-var express = require("express");
-var router = express.Router();
-var debug = require("debug")("nadia:route:admin");
+const express = require("express");
+const router = express.Router();
+const debug = require("debug")("nadia:route:admin");
 const _ = require("lodash");
 const reservations = require("../lib/reservations");
 
@@ -11,7 +11,7 @@ router.get("/", function (req, res, next) {
             res.render("admin", {
         title: "Booking Requests - Nadia's Garden",
         reservations,
-        header: _.keys(reservations[0])
+        header: _.keys(reservations[0]),
             });
         });
 });

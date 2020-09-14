@@ -1,30 +1,30 @@
-var express = require('express');
-var router = express.Router();
-var debug = require('debug')('nadia:route:reservations')
-const reservations = require('../lib/reservations');
-const Reservation = require('../lib/schema/reservation');
+const express = require("express");
+const router = express.Router();
+const debug = require("debug")("nadia:route:reservations");
+const reservations = require("../lib/reservations");
+const Reservation = require("../lib/schema/reservation");
 
-router.get('/', function (req, res, next) {
-    res.render('reservations');
+router.get("/", function (req, res, next) {
+    res.render("reservations");
 });
 
-router.post('/', function (req, res, next) {
+router.post("/", function (req, res, next) {
     const reservation = new Reservation(req.body);
     reservations.create(reservation)
-        .then(reservationId => res.render('reservations', {
+        .then((reservationId) => res.render("reservations", {
       success: true,
-      reservationId
+      reservationId,
         }))
-        .catch(err => {
+        .catch((err) => {
             debug(err.message, req.body);
-            res.status(400).render('reservations', {
+            res.status(400).render("reservations", {
         errors: [
-            err.message
+            err.message,
         ],
         success: false,
-        submission: req.body
+        submission: req.body,
             });
-        })
+        });
 });
 
 module.exports = router;
