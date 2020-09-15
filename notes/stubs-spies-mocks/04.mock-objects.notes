@@ -1,0 +1,12 @@
+* // ---------- Mock Objects ---------- // *
+
+# Programmed with expectations
+# Verifies behaviour
+    - Expectation around how something is called
+    - Fails test if unused unexpectedly
+    - Doesn't return anything
+
+# Use for the method being tested
+
+Example:
+    Saving only called the database once

@@ -1,0 +1,20 @@
+* // ---------- Test Doubles Summary ---------- // *
+
+# Stub
+Verify indirect inputs by providing a controlled response.
+
+# Spies
+Records indirect outputs for later verification.
+
+# Mock Objects
+Verify indirect outputs against expectations.
+
+# Fake Objects
+Runs faster with less functionality.
+
+# Dummy Objects
+Specify values.
+
+Further Reading:
+http://xunitpatterns.com/Test%20Double.html
+https://martinfowler.com/bliki/TestDouble.html

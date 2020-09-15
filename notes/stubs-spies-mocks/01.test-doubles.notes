@@ -1,0 +1,21 @@
+* // ---------- Test Doubles ---------- // *
+
+# Replacement for a component
+    - Looks and behaves similarly
+    - Provides same API
+    - Is a simplified version
+
+# Can have hard-coded behaviour
+    - Typical configured during test set-up
+
+Why use a test double?:
+    - Isolation
+    - Consistency
+    - Speed
+
+# Test Doubles:
+    - Test stub
+    - Test spy
+    - Mock object
+    - Fake object
+    - Dummy object

@@ -1,0 +1,8 @@
+* // ---------- Fake Object ---------- // *
+
+# Working implementation
+    - Takes short-cut
+    - Is not usable in production
+
+Example:
+    Replace database with an in-memory array

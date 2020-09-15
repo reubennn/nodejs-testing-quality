@@ -1,0 +1,12 @@
+* // ---------- Test Stub ---------- // *
+
+# Simulates behaviours
+Controls responses
+Won't respond unless programmed to
+
+# Temporarily replaces real component
+# Verifies indirect inputs
+
+Examples:
+    - Faking database query response,
+    - Disable logging

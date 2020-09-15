@@ -1,0 +1,12 @@
+* // ---------- Test Spy ---------- // *
+
+# Observes interactions with tested code
+    - Number of times called
+    - How it was called
+    - What it responded to
+
+# Verifies indirect outputs
+# Can add to existing or replace
+
+Example:
+    Validator was called once with transformed values
