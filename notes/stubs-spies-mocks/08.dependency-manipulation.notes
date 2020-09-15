@@ -1,0 +1,31 @@
+* // ---------- Dependency & Code Isolation ---------- // *
+
+# Units often have dependencies
+    - Reusability and modularity
+    - Example => database and logger
+
+# Testing dependencies is integration, not unit testing
+
+How do we isolate a unit with a dependency?:
+Manipulate require cache
+    - Substitute your code in require cache
+        - Needs no code changes target require
+
+# Use purpose-built libraries
+
+* // ---------- Override Dependencies with Library ---------- // *
+
+# Requires override API
+
+# Before Test
+    - Use override API to define what and how
+    - Require target module using override API
+
+# Test executes
+# After test
+    - Disable override
+
+Libraries:
+    - Mockery
+    - Proxyquite
+    - Rewire
