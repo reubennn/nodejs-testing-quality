@@ -26,6 +26,7 @@ describe("Reservation Schema", function () {
     });
 
     context("Validator", function () {
+        // Testing callbacks
         it("should pass a valid reservation with no optional fields",
             function (done) { // Add callback to it()
                 const reservation = new Reservation({
@@ -42,6 +43,7 @@ describe("Reservation Schema", function () {
                 });
             });
 
+        // Testing promises
         it("should fail a reservation with a bad email",
             function (done) {
                 const reservation = new Reservation({
