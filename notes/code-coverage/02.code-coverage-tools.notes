@@ -8,6 +8,7 @@
 
 # Istanbul
     - Very active
+    - "nyc" npm package
 
 Istanbul Features:
     - Watches code execution
