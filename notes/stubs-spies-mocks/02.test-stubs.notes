@@ -10,3 +10,24 @@ Won't respond unless programmed to
 Examples:
     - Faking database query response,
     - Disable logging
+
+* // ---------- Sinon.JS Stubs ---------- // *
+
+Uses:
+    - Control method's behaviour
+    - Prevent method from being called
+
+# Can be anonymous
+# Can wrap existing object
+    - Selectively modify
+
+# By default and undefined response
+
+* // ---------- Stubbing a Response ---------- // *
+
+# Replicate how
+    - Return, throw, resolve, and reject
+
+# Replicate what
+    - Match structure
+    - Easiest way => console.log the actual response

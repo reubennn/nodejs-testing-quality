@@ -10,3 +10,16 @@
 
 Example:
     Saving only called the database once
+
+* // ---------- Sinon.JS Mocks ---------- // *
+
+Uses:
+    - Controls how unit is being used.
+    - Enforce implementation details
+
+# Like a simple stub with spy behaviour
+    - No responses
+
+# Tests
+    - How many times a target is called
+    - With what arguments

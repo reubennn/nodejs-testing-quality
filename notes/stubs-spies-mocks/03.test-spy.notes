@@ -10,3 +10,22 @@
 
 Example:
     Validator was called once with transformed values
+
+* // ---------- Sinon.JS Spies ---------- // *
+
+Uses:
+    - Record information about calls
+
+# Can be anonymous
+    - Use when not testing behaviour
+
+# Can wrap existing methods
+    - Behaves exactly like original method
+    - Will record access data
+
+! Testing Exported Named Functions !
+    - When testing a named function in the same file...
+    - Don't call FUNCTIONNAME in the target...
+    - Use module.exports.FUNCTIONNAME
+Example:
+    module.exports.validate(reservation)
