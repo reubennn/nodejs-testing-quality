@@ -1,0 +1,26 @@
+* // ---------- Continuous Integration ---------- // *
+
+# Code merged into central repository
+# Automated builds and tests executed
+    - Eg. unit tests, linting & functional testing
+# Report problems
+    - Improve software quality
+
+Open-source continuous integration tools:
+All extensible and flexible!
+
+    - Buildbot
+    - Jenkins
+    - Strider CD
+
+Continuous integration as a service:
+    - CircleCI
+    - GitLab
+    - TravisCI
+
+# Desirable CI Features:
+    - Match your production environment
+    - Easy to configure and use
+    - Scalable
+    - Integrates with your workflow
+        - Report problems in pull requests
