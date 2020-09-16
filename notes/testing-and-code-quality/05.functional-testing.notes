@@ -8,3 +8,37 @@
 - Typically automated
     - Sometimes manual
 - Slower than unit and integration
+
+# Test functionality of an application
+# Bases test cases on specifications
+    - Business requirements
+    - Should read like acceptance tests
+# Describes what the system does
+
+Functional Testing Tools:
+    - PhantomJS
+        - CasperJS
+    - Selenium WebDriver
+        - Nightwatch.js
+        - WebdriverIO
+    - SuperAgent 
+        - (lightweight)
+        - Chai HTTP
+
+Chai HTTP:
+    - Easy to get started
+    - Doesn't require external software
+    - Doesn't require the server to be running
+        - Can accept just the Express app
+        - Lightweight
+    - Compatible with mocha
+
+# Functional Testing with Test Doubles:
+    - Can still use test doubles when testing app.js
+    - Use proxyquire on app.js
+        - Modules not in app.js won't be proxied
+        - Solution => @ global configuration
+
+Example:
+    `const stub = sinon.stub();`
+    `stub['@global'] = true;`
