@@ -1,0 +1,26 @@
+* // ---------- Code Coverage Tools ---------- // *
+
+# Blanket.js
+    - No longer maintained
+
+# JSCoverage
+    - No longer maintained
+
+# Istanbul
+    - Very active
+
+Istanbul Features:
+    - Watches code execution
+    - Track how well unit tests exercise codebase
+    - CLI interface is nyc
+    - Supports mocha, AVA, and others
+    - Supports ES6 as long as Node does
+        - Supports Babel if Node doesn't
+
+Istanbul Reporters:
+    - Text (default)
+    - HTML
+    - LCOV
+        - Standard for recording coverage
+        - Initially designed fro Linux source code
+        - Used by third party tools

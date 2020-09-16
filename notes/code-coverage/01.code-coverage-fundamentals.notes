@@ -1,0 +1,46 @@
+* // ---------- Code Coverage ---------- // *
+
+# Measure of how much code is executed
+    - Typically from a test suite
+
+# Reported in percentages (XX%)
+    - Higher percentages means more code executed
+
+Why does code coverage matter?:
+    - Higher coverage reduces risk of bugs
+    - Highlights unused or untested pieces of code
+    - Indicator of code quality
+    - Requirement in some industries
+
+# Types of coverage
+    - Statements
+        - Proportion of executed statements
+    - Branches
+        - Proportion of branches
+    - Functions
+        - Proportion of called defined functions
+    - Lines
+        - Proportion of executed lines
+
+* // ---------- Statements ---------- // *
+
+What is a Statement?:
+    - Performs an action
+    - May span multiple lines
+    - Group of keywords
+
+Examples:
+    - if...else
+    - const
+    - while
+
+* // ---------- Branches ---------- // *
+
+# Branch Examples
+    - if...else statements
+Conditionals:
+    - expr1 || expr2 => logical OR
+    - expr1 && expr2 => logical AND
+    - !expr => logical NOT
+Conditional:
+    => condition ? expr1 : expr2
